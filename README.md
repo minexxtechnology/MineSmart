@@ -39,23 +39,20 @@ Mine managers create tracks at the producation stage, to track their poduction t
 
          2.4.2 Stageview 2: Minerals purchase
          
-In this stage, the system processes all payments including the mobile payments to the miners's teams.
+In this stage, the system processes all payments including the electronic payments to the miners's teams.
 Payment details (mobile money, digital wallet) are added by mine managers to the production batches configured in the previous stage.
-At everyy stageview, a summary tab labelled 'Stage History' allows to visualise all the historical stages for the current minerals batch displayed on the screen.
-
-
+At every stageview, a summary tab labelled 'Stage History' allows to visualise all the historical stages for the current minerals batch displayed on the screen in addition of all miners involved in the digging of the minerals batch.
 
          2.4.3 Stageview 3: Transport
+This stage helps the mine maanger to collate all the transport documentation and authorisations for the minerals to be shipped out the mine.
+
          2.4.4 Stageview 4: Export
+ 
          2.4.5 Stageview 5: International Trading
          2.4.6 Stageview 6: Smelters
          2.4.7 Stageview 7: Manufacturers
  
-  1.2 API SET UP FOR MARCO
   
-  
-    1.2.1 Configure the API rules
-
   
  
  
