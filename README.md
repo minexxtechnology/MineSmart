@@ -53,7 +53,7 @@ At the Export stageview, mine managers are tagging minerals batches that are rea
  
          2.4.5 Stageview 5: International Trading
          
-This stage relates to the International Trading phase, where minerals are sold to comptoirs or other participants in the mining industry. MineSmart allows mining company to keep track of 
+This stage relates to the International Trading phase, where minerals are sold to comptoirs or other participants in the mining industry. MineSmart allows mining company to keep track of the history and records related to a mineral batch.
 
          2.4.6 Stageview 6: Smelters
          
