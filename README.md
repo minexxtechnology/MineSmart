@@ -30,7 +30,8 @@ To set up a team leader, click on the Minert Teams tab: The 'Create Miner team' 
 The same logic as above applies to set up multiples sites and corresponding pits using the forms for manual entry or the upload of Excel/CSV files with the possibilities to map miners, teams and mine sites in few clicks.
 
     1.1.4 Tracking the minerals value chain
-    
+
+The Tracking tab gives you access to the 7 stageviews from the digging all the way through the International Trade, including two additional view for Smelters and Tech companies.
 
  
  
