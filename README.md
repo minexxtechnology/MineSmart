@@ -31,9 +31,15 @@ The same logic as above applies to set up multiples sites and corresponding pits
 
     1.1.4 Tracking the minerals value chain
 
-The Tracking tab gives you access to the 7 stageviews from the digging all the way through the International Trade, including two additional view for Smelters and Tech companies.
+The Tracking tab gives you access to the 7 stageviews from the digging all the way through the International Trading, including two additional views for Smelters and Tech manufacturers companies.
 
- 
+      1.1.4.1 Stageview 1: Production
+      1.1.4.2 Stageview 2: Minerals purchase
+      1.1.4.3 Stageview 3: Transport
+      1.1.4.4 Stageview 4: Export
+      1.1.4.5 Stageview 5: International Trading
+      1.1.4.6 Stageview 6: Smelters
+      1.1.4.7 Stageview 7: Manufacturers
  
   1.2 API SET UP FOR MARCO
   
