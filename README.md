@@ -1,7 +1,7 @@
 # MineSmart
 Integrated blockchain platform to connect artisanal miners to the world
 
-# MineSmart integrates a CRM tool, a suite of Blockchain and middleware applications to serve Mining companies and help them optimize the use of human resources and equipment, and comply with environmental and health and safety regulations.
+# MineSmart integrates a CRM tool,  Blockchain and middleware applications to serve Artisan Mining companies needs and help them optimize the use of human resources and equipment, and comply with environmental and health and safety regulations.
 
 1.Create an account 
 
