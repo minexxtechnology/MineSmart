@@ -49,10 +49,15 @@ The transport view allows the traceability of the miners, mines and payments inv
 
          2.4.4 Stageview 4: Export
          
-At the Export
+At the Export stageview, mine managers are tagging minerals batches that are ready for Export. Licensing fees, trading permits, tax clearance, export declarations are attached the corresponding minerals batches.
  
          2.4.5 Stageview 5: International Trading
+         
+This stage relates to the International Trading phase, where minerals are sold to comptoirs or other participants in the mining industry. MineSmart allows mining company to keep track of 
+
          2.4.6 Stageview 6: Smelters
+         
+         
          2.4.7 Stageview 7: Manufacturers
  
   
