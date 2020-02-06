@@ -27,7 +27,11 @@ To set up a team leader, click on the Minert Teams tab: The 'Create Miner team' 
     
     1.1.3 Setting mines and pits
     
-The same logic as above applies to set up multiples sites and corresponding pits using the forms for manual entry or the upload Excel/CSV files with the possibilities to map miners, teams and mine sites in few clicks.
+The same logic as above applies to set up multiples sites and corresponding pits using the forms for manual entry or the upload of Excel/CSV files with the possibilities to map miners, teams and mine sites in few clicks.
+
+    1.1.4 Tracking the minerals value chain
+    
+
  
  
   1.2 API SET UP FOR MARCO
