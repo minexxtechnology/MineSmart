@@ -31,7 +31,7 @@ The same logic as above applies to set up multiples sites and corresponding pits
 
      2.4 Tracking the minerals supply chain
 
-The Tracking tab gives you access to the 7 stageviews from the digging all the way through the International Trading, including two additional views for Smelters and Tech manufacturers companies.
+The Tracking tab gives you access to the 7 stageviews from the digging all the way through the International Trading, including two additional views for Smelters and Tech manufacturers companies. Miner managers can update the supply chain stage for every minerals batch and follow it through a tracking dashboard while viewing the stages history and resources involved at each stage. 
 
          2.4.1 Stageview 1: Production
          
@@ -48,6 +48,8 @@ This stage helps the mine manager to collate all the transport documentation and
 The transport view allows the traceability of the miners, mines and payments involved for all minerals batches involved.
 
          2.4.4 Stageview 4: Export
+         
+At the Export
  
          2.4.5 Stageview 5: International Trading
          2.4.6 Stageview 6: Smelters
