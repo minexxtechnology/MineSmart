@@ -19,8 +19,11 @@ Miners can also be added through the upload of an Excel or CSV file by clicking 
     
       1.1.2.1 Setting up a team leader
 
+To set up a team leader, click on the Minert Teams tab: The 'Create Miner team' form opens up where the team leaders' information can be entered. This can also be achieved through the 'Import' button that allows the upload of large datasets Excel or CSV files. 
       
       1.1.2.2 Adding miners under a team leader
+      
+ Miners are assigned to the team leader(s) in the Miners section located at the bottom of the Miner Teams area using the 'Assign' button. Miners previously created in the Miners tabs can be added in one click from the available lists.
     
     1.1.3 Setting mines and pits
  
