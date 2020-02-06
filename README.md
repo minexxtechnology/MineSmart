@@ -7,7 +7,7 @@ Integrated blockchain platform to connect artisanal miners to the world
 
 To create an account follow this link: https://crm.minesmart.minexx.co
 
-2. Available workflows
+2.Available workflows
  
     2.1 Adding Miners
     
@@ -44,7 +44,8 @@ Payment details (mobile money, digital wallet) are added by mine managers to the
 At every stageview, a summary tab labelled 'Stage History' allows to visualise all the historical stages for the current minerals batch displayed on the screen in addition of all miners involved in the digging of the minerals batch.
 
          2.4.3 Stageview 3: Transport
-This stage helps the mine maanger to collate all the transport documentation and authorisations for the minerals to be shipped out the mine.
+This stage helps the mine manager to collate all the transport documentation and authorisations in a form for a batch of minerals to be shipped out the mine. 
+The transport view allows the traceability of the miners, mines and payments involved for all minerals batches involved.
 
          2.4.4 Stageview 4: Export
  
