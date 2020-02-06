@@ -26,6 +26,8 @@ To set up a team leader, click on the Minert Teams tab: The 'Create Miner team' 
  Miners are assigned to the team leader(s) in the Miners section located at the bottom of the Miner Teams area using the 'Assign' button. Miners previously created in the Miners tabs can be added in one click from the available lists.
     
     1.1.3 Setting mines and pits
+    
+The same logic as above applies to set up multiples sites and corresponding pits using the forms for manual entry or the upload Excel/CSV files with the possibilities to map miners, teams and mine sites in few clicks.
  
  
   1.2 API SET UP FOR MARCO
