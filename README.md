@@ -1,7 +1,7 @@
 # MineSmart
 Integrated blockchain platform to connect artisanal miners to the world
 
-# MineSmart integrates a CRM tool,  Blockchain and middleware applications to serve Artisan Mining companies needs and help them optimize the use of human resources and equipment, and comply with environmental and health and safety regulations.
+# MineSmart integrates a CRM tool,  Blockchain and middleware applications to serve Artisan Mining companies needs and help them optimize the use of human resources and equipment, and comply with environmental, health and safety regulations.
 
 1.Creating an account 
 
@@ -19,7 +19,7 @@ Miners can also be added through the upload of an Excel or CSV file by clicking 
     
        2.2.1 Setting up a team leader
 
-To set up a team leader, click on the Minert Teams tab: The 'Create Miner team' form opens up where the team leaders' information can be entered. This can also be achieved through the 'Import' button that allows the upload of large datasets Excel or CSV files. 
+To set up a team leader, click on the Miner Teams tab: The 'Create Miner team' form opens up where the team leaders' information can be entered. This can also be achieved through the 'Import' button that allows the upload of large datasets Excel or CSV files. 
       
        2.2.2 Adding miners under a team leader
       
@@ -31,7 +31,7 @@ The same logic as above applies to set up multiples sites and corresponding pits
 
      2.4 Tracking the minerals supply chain
 
-The Tracking tab gives you access to the 7 stageviews from the digging all the way through the International Trading, including two additional views for Smelters and Tech manufacturers companies. Miner managers can update the supply chain stage for every minerals batch and follow it through a tracking dashboard while viewing the stages history and resources involved at each stage. 
+The Tracking tab gives you access to the 7 stageviews from the digging all the way through the International Trading, including two additional views for Smelters and Tech manufacturers companies. Mine managers can update the supply chain stage for every minerals batch and follow it through a tracking dashboard while viewing the stages history and resources involved at each stage. 
 
          2.4.1 Stageview 1: Production
          
@@ -39,26 +39,30 @@ Mine managers create tracks at the producation stage, to track their poduction t
 
          2.4.2 Stageview 2: Minerals purchase
          
-In this stage, the system processes all payments including the electronic payments to the miners's teams.
-Payment details (mobile money, digital wallet) are added by mine managers to the production batches configured in the previous stage.
+In this stage, the system processes payments including the electronic payments to the miners's teams.
+Payment details (mobile money, digital wallet if applies) are added by mine managers to the production batches configured in the previous stage.
 At every stageview, a summary tab labelled 'Stage History' allows to visualise all the historical stages for the current minerals batch displayed on the screen in addition of all miners involved in the digging of the minerals batch.
 
          2.4.3 Stageview 3: Transport
 This stage helps the mine manager to collate all the transport documentation and authorisations related to a batch of minerals shipped out the mine. 
-The transport view allows the traceability of the miners, mines and payments involved for all minerals batches involved.
+The transport view carries over information related to the traceability of the miners, mines and payments involved for all minerals batches beig shipped out the mine sites.
 
          2.4.4 Stageview 4: Export
          
-At the Export stageview, mine managers are tagging minerals batches that are ready for Export. Licensing fees, trading permits, tax clearance, export declarations are attached the corresponding minerals batches.
+At the Export stageview, mine managers are tagging minerals batches that are ready for Export. Licensing fees, trading permits, tax clearance, export declarations are attached to the corresponding minerals batches.
  
          2.4.5 Stageview 5: International Trading
          
-This stage relates to the International Trading phase, where minerals are sold to comptoirs or other participants in the mining industry. MineSmart allows mining company to keep track of the history and records related to a mineral batch.
+This stage relates to the International Trading phase, where minerals are sold to comptoirs or other participants in the mining industry. MineSmart allows mining company to keep track of the history and records related to a mineral batch and making it available to EU consumers concerned about the ethical sourcing  oftech products.
 
-         2.4.6 Stageview 6: Smelters
+         2.4.6 Stageview 6 & 7: Smelters and Manufacturers
+          
+These two views are specific dashboards that allow Smelters and Manufacturers from the tech industry to ensure that their are sourcing their minerals in an ethical manner. All the information related to the end-to-end supply chain is accessible from the dashaboard.
+
+MineSmart connects miners to the world, by bringing transparency to mineral origin data and by empowering tech companies to improve the situation for miners.
          
          
-         2.4.7 Stageview 7: Manufacturers
+         
  
   
   
