@@ -1,0 +1,85 @@
+//Create the map to send to the third party server which reaches out to FinBoot to receive the stampID and the stamphash
+currentdate = now;
+dealrecord = zoho.crm.getRecordById("Deals", dealid);
+batchid = ifnull(dealrecord.get("Deal_Name"), "");
+stage = ifnull(dealrecord.get("Stage"), "");
+scanbarcode = ifnull(dealrecord.get("Scan_Barcode"), "");
+grade = ifnull(dealrecord.get("Grade"), "");
+mineorsite = ifnull(dealrecord.get("Account_Name"), "");
+teamleader = ifnull(dealrecord.get("Contact_Name"), "");
+minerals = ifnull(dealrecord.get("Minerals"), "");
+relatedinventory = zoho.crm.getRelatedRecords("Traceability", "Deals", dealid);
+relatedinventorystring = relatedinventory.toString();
+inventorylist = List();
+if (relatedinventorystring == "")
+{
+	inventorylist = "";
+}
+else
+{
+	for each pack in relatedinventory
+	{
+		packmap = Map();
+		packmap.put("Bag", ifnull(pack.get("Bag"), ""));
+		packmap.put("CIRGL_Status", ifnull(pack.get("CIRGL_Status"), ""));
+		packmap.put("Date", ifnull(pack.get("Date"), ""));
+		packmap.put("FinBoot_Stamp", ifnull(pack.get("FinBoot_Stamp"), ""));
+		packmap.put("Location", ifnull(pack.get("Location"), ""));
+		packmap.put("Miner_Team", ifnull(pack.get("Miner_Team"), ""));
+		packmap.put("Pack_Name", ifnull(pack.get("Name"), ""));
+		packmap.put("Scan_Reference", ifnull(pack.get("Scan_Reference"), ""));
+		packmap.put("Weight", ifnull(pack.get("Weight"), ""));
+		inventorylist.add(packmap);
+	}
+}
+relatedminers = zoho.crm.getRelatedRecords("Miners11", "Deals", dealid);
+relatedminersstring = relatedminers.toString();
+minerslist = List();
+if (relatedminersstring == "")
+{
+	minerslist = "";
+}
+else
+{
+	for each miner in relatedminersstring
+	{
+		minermap = Map();
+		minermap.put("Contact_Type", ifnull(miner.get("Contact_Type"), ""));
+		minermap.put("Date_of_Birth", ifnull(miner.get("Date_of_Birth"), ""));
+		minermap.put("First_Name", ifnull(miner.get("First_Name"), ""));
+		minermap.put("Last_Name", ifnull(miner.get("Last_Name"), ""));
+		minermap.put("Gender", ifnull(miner.get("Gender"), ""));
+		minermap.put("Mobile", ifnull(miner.get("Mobile"), ""));
+		minerslist.add(minermap);
+	}
+}
+json = Map();
+json.put("currentdate", currentdate);
+json.put("batchid", batchid);
+json.put("stage", stage);
+json.put("scanbarcode", scanbarcode);
+json.put("grade", grade);
+json.put("mineorsite", mineorsite);
+json.put("teamleader", teamleader);
+json.put("minerals", minerals);
+json.put("inventory", inventorylist);
+json.put("miners", minerslist);
+//info json;
+params = Map();
+params.put("JSONString", json);
+//info params;
+response = invokeurl[
+	url: "https://tallerlab.es/bc/api/test"
+	type: POST parameters: params
+];
+responsestring = response.toString();
+responsemap = responsestring.toMap();
+sizem = size(responsemap);
+stampid = ifnull(responsemap.get("stampID"), "");
+stamphash = ifnull(responsemap.get("stampHash"), "");
+updatetracking = zoho.crm.updateRecord("Deals", dealid,
+{
+	"STAMP": stampid,
+	"Scan_Barcode": stamphash
+});
+info updatetracking;
