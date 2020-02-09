@@ -70,7 +70,9 @@ MineSmart connects miners to the world, by bringing transparency to mineral orig
 
 # License
 Minexx use GLP V3 Open Source License. LICENSE
-         
+https://github.com/zoho/zcrm-php-sdk
+<branch> https://github.com/zoho/zcrm-php-sdk
+ 
          
          
  
