@@ -20,7 +20,7 @@ To create an account follow this link: https://crm.minesmart.minexx.co
     
 After logging in MineSmart app, miners staff are added by clicking on the Miners tab. Once in the Miners tab, after clicking on the + button at the top right side of the screen, a form opens up where the miners identification information can be entered including the upload of their ID card, biometrics and mobile money information. 
 
-Miners can also be added through the upload of an Excel or CSV file by clicking on the 'Import' button.
+Miners can also be added through the upload of an Excel or CSV file by clicking on the 'Import' button. This can be done through the Mobile phone application.
     
      2.2 Creating miners' teams
     
@@ -67,6 +67,9 @@ This stage relates to the International Trading phase, where minerals are sold t
 These two views are specific dashboards that allow Smelters and Manufacturers from the tech industry to ensure that their are sourcing their minerals in an ethical manner. All the information related to the end-to-end supply chain is accessible from the dashaboard.
 
 MineSmart connects miners to the world, by bringing transparency to mineral origin data and by empowering tech companies to improve the situation for miners.
+
+# License
+Minexx use GLP V3 Open Source License. LICENSE
          
          
          
