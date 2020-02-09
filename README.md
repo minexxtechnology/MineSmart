@@ -1,8 +1,10 @@
-# MineSmart
-Integrated blockchain platform to connect artisanal miners to the world
+# Project Name
+MineSmart: Integrated blockchain platform to connect artisanal miners to the world and formalise the sector.
 
-# MineSmart integrates a CRM tool,  Blockchain and middleware applications to serve Artisan Mining companies needs and help them optimize the use of human resources and equipment, and comply with environmental, health and safety regulations.
+# Project Description
+MineSmart platform works along the artisanal and small-scale mining value chain. 1 in 8 people in Sub Saharan Africa depend on small scale mining for a living yet it is characterised by funding conflict and child labour. MineSmart is a blockchain platform that is used at the mine site to formalise operations using digital payments and IoT. 
 
+# Installaiton
 1.Creating an account 
 
 To create an account follow this link: https://crm.minesmart.minexx.co
