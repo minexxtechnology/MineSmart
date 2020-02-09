@@ -4,7 +4,12 @@ MineSmart: Integrated blockchain platform to connect artisanal miners to the wor
 # Project Description
 MineSmart platform works along the artisanal and small-scale mining value chain. 1 in 8 people in Sub Saharan Africa depend on small scale mining for a living yet it is characterised by funding conflict and child labour. MineSmart is a blockchain platform that is used at the mine site to formalise operations using digital payments and IoT. 
 
-# Installaiton
+# Setup
+Minexx take an integration first approach to accelerate the impact of technology they create and get a product into market as quickly as possible.
+
+Minesmart has been built on top of existing technologies @Zoho Vertical CRM (https://github.com/zoho/zcrm-php-sdk) and @Finboot. Minexx technology includes the APIs between the CRM module, blockchain stamping, digital payments and additional biometrics integrations to come. 
+
+# Using MineSmart
 1.Creating an account 
 
 To create an account follow this link: https://crm.minesmart.minexx.co
