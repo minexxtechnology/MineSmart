@@ -69,9 +69,7 @@ These two views are specific dashboards that allow Smelters and Manufacturers fr
 MineSmart connects miners to the world, by bringing transparency to mineral origin data and by empowering tech companies to improve the situation for miners.
 
 # License
-Minexx use GLP V3 Open Source License. LICENSE
-https://github.com/zoho/zcrm-php-sdk
-<branch> https://github.com/zoho/zcrm-php-sdk
+Minexx use GLP V3 Open Source License. 
  
          
          
